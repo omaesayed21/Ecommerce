@@ -29,11 +29,15 @@ export default function App() {
     {path:'', element :<Layout></Layout> , children:[
       { index : true, element:<Signup></Signup>},
       // {index:true, element:<Signup></Signup>},
-<<<<<<< HEAD
-=======
+// <<<<<<< HEAD
+// =======
+// <<<<<<< HEAD
+// >>>>>>> 8d3f407 (edit erorr)
+// =======
+//       // {path:'Login' , element:<Signup></Signup>},
+// >>>>>>> 96450e2 (edit erorr)
       {path:'Signup' , element:<Signup></Signup>},
->>>>>>> 8d3f407 (edit erorr)
-      {path:'Login' , element:<Login></Login>},
+{path:'Login' , element:<Login></Login>},
       {path:"ForgetPassword" , element:<ForgetPassword></ForgetPassword>},
       {path:"RestPassword" , element:<RestPassword></RestPassword>},
       {path:"home" ,element:<ProductedRoute><Home></Home></ProductedRoute>},
