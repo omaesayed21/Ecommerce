@@ -29,6 +29,10 @@ export default function App() {
     {path:'', element :<Layout></Layout> , children:[
       { index : true, element:<Signup></Signup>},
       // {index:true, element:<Signup></Signup>},
+<<<<<<< HEAD
+=======
+      {path:'Signup' , element:<Signup></Signup>},
+>>>>>>> 8d3f407 (edit erorr)
       {path:'Login' , element:<Login></Login>},
       {path:"ForgetPassword" , element:<ForgetPassword></ForgetPassword>},
       {path:"RestPassword" , element:<RestPassword></RestPassword>},
