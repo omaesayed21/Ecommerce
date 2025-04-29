@@ -36,7 +36,9 @@ export default function App() {
 // =======
 //       // {path:'Login' , element:<Signup></Signup>},
 // >>>>>>> 96450e2 (edit erorr)
-      {path:'Signup' , element:<Signup></Signup>},
+
+{path:'Signup' , element:<Signup></Signup>},
+
 {path:'Login' , element:<Login></Login>},
       {path:"ForgetPassword" , element:<ForgetPassword></ForgetPassword>},
       {path:"RestPassword" , element:<RestPassword></RestPassword>},
